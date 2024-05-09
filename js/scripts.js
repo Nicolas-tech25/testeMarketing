@@ -1,21 +1,21 @@
 // Array de camisas em destaque
 const camisasDestaque = [
-    { nome: 'Coringão branco', preco: 'R$ 99,90', imagem: 'images/corinthians.jpg' },
-    { nome: 'Coringão clássico', preco: 'R$ 79,90', imagem: 'images/coringão.jpg' },
-    { nome: 'Coringão da cruz', preco: 'R$ 89,90', imagem: 'images/r.jpg' },
-    { nome: 'Coringão da cruz', preco: 'R$ 89,90', imagem: 'images/f.jpg' }
+    { nome: 'Coringão branco', preco: 'R$ 99,90', imagem: '../images/corinthians.jpg' },
+    { nome: 'Coringão clássico', preco: 'R$ 79,90', imagem: '../images/coringão.jpg' },
+    { nome: 'Coringão da cruz', preco: 'R$ 89,90', imagem: '../images/r.jpg' },
+    { nome: 'Coringão da cruz', preco: 'R$ 89,90', imagem: '../images/f.jpg' }
 ];
 
 // Array de camisas com nome, preço e imagem
 const camisas = [
-    { nome: 'Coringão derretido', preco: 'R$ 49,90', imagem: 'images/w.jpg' },
-    { nome: 'Coringão Cássio', preco: 'R$ 600', imagem: 'images/c.jpg' },
-    { nome: 'A mais foda', preco: 'R$ 39,90', imagem: 'images/d.jpg' },
-    { nome: 'Coringão Chavee 🔥', preco: 'R$ 44,90', imagem: 'images/s.jpg' },
-    { nome: 'Coringão zebra', preco: 'R$ 59,90', imagem: 'images/f.jpg' },
-    { nome: 'Coringão Lindo', preco: 'R$ 59,90', imagem: 'images/n.jpg' },
-    { nome: 'Seu Jorge', preco: 'R$ 59,90', imagem: 'images/m.jpg' },
-    { nome: 'Coringão da cruz', preco: 'R$ 59,90', imagem: 'images/r.jpg' }
+    { nome: 'Coringão derretido', preco: 'R$ 49,90', imagem: '../images/w.jpg' },
+    { nome: 'Coringão Cássio', preco: 'R$ 600', imagem: '../images/c.jpg' },
+    { nome: 'A mais foda', preco: 'R$ 39,90', imagem: '../images/d.jpg' },
+    { nome: 'Coringão Chavee 🔥', preco: 'R$ 44,90', imagem: '../images/s.jpg' },
+    { nome: 'Coringão zebra', preco: 'R$ 59,90', imagem: '../images/f.jpg' },
+    { nome: 'Coringão Lindo', preco: 'R$ 59,90', imagem: '../images/n.jpg' },
+    { nome: 'Seu Jorge', preco: 'R$ 59,90', imagem: '../images/m.jpg' },
+    { nome: 'Coringão da cruz', preco: 'R$ 59,90', imagem: '../images/r.jpg' }
 ];
 
 
@@ -45,7 +45,7 @@ function criarCard(camisa) {
 
     // Cria um botão de compra
     const button = document.createElement('button');
-    button.textContent = 'Comprar';
+    button.textContent = 'Ver detalhes';
     figcaption.appendChild(button);
 
     // Adiciona o figcaption ao figure
